@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Sanseriffic';
+  src: local('Sanseriffic'), url(./fonts/Sanseriffic.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lulo-Clean-W01-One';
+  src: local('Lulo-Clean-W01-One'), url(./fonts/Lulo-Clean-W01-One.ttf) format('truetype');
+}
+
+body {
+  margin: 0;
+  font-family: 'Sanseriffic' , 'Lulo-Clean-W01-One.ttf';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    'sans-serif',-apple-system, BlinkMacSystemFont, */
+code {
+  font-family: 'Sanseriffic','Lulo-Clean-W01-One.ttf';
+  /* source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace; */
+}
+
+
